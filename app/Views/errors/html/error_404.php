@@ -1,84 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='es'>
 <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title><?= lang('Errors.pageNotFound') ?></title>
-
-    <style>
-        div.logo {
-            height: 200px;
-            width: 155px;
-            display: inline-block;
-            opacity: 0.08;
-            position: absolute;
-            top: 2rem;
-            left: 50%;
-            margin-left: -73px;
-        }
-        body {
-            height: 100%;
-            background: #fafafa;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: #777;
-            font-weight: 300;
-        }
-        h1 {
-            font-weight: lighter;
-            letter-spacing: normal;
-            font-size: 3rem;
-            margin-top: 0;
-            margin-bottom: 0;
-            color: #222;
-        }
-        .wrap {
-            max-width: 1024px;
-            margin: 5rem auto;
-            padding: 2rem;
-            background: #fff;
-            text-align: center;
-            border: 1px solid #efefef;
-            border-radius: 0.5rem;
-            position: relative;
-        }
-        pre {
-            white-space: normal;
-            margin-top: 1.5rem;
-        }
-        code {
-            background: #fafafa;
-            border: 1px solid #efefef;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            display: block;
-        }
-        p {
-            margin-top: 1.5rem;
-        }
-        .footer {
-            margin-top: 2rem;
-            border-top: 1px solid #efefef;
-            padding: 1em 2em 0 2em;
-            font-size: 85%;
-            color: #999;
-        }
-        a:active,
-        a:link,
-        a:visited {
-            color: #dd4814;
-        }
-    </style>
+    <link href='<?php echo base_url(); ?>css/bootstrap.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="wrap">
-        <h1>404</h1>
-
-        <p>
-            <?php if (ENVIRONMENT !== 'production') : ?>
-                <?= nl2br(esc($message)) ?>
-            <?php else : ?>
+    <div class='d-flex align-items-center justify-content-center vh-100'>
+        <div class='text-center'>
+            <h1 class='display-1 fw-bold'>404</h1>
+            <p class='lead'>
+                <?php if (ENVIRONMENT !== 'production') : ?>
+                    <?= nl2br(esc($message)) ?><br>
+                <?php endif; ?>
                 <?= lang('Errors.sorryCannotFind') ?>
-            <?php endif; ?>
-        </p>
+            </p>
+            <a href='<?php echo base_url(); ?>' class='btn btn-primary'>Volver a la página de inicio</a>
+        </div>
     </div>
+    <footer>
+        <em>&copy; <?php echo date('Y') . ' La Barrigona'; ?></em>
+    </footer>
+    <script src='<?php echo base_url(); ?>js/bootstrap.bundle.min.js'></script>
 </body>
 </html>
