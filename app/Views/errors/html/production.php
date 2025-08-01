@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
+    <meta charset='UTF-8'>
+    <meta name='robots' content='noindex'>
 
     <title><?= lang('Errors.whoops') ?></title>
 
@@ -12,11 +12,11 @@
 </head>
 <body>
 
-    <div class="container text-center">
+    <div class='container text-center'>
 
-        <h1 class="headline"><?= lang('Errors.whoops') ?></h1>
+        <h1 class='headline'><?= lang('Errors.whoops') ?></h1>
 
-        <p class="lead"><?= lang('Errors.weHitASnag') ?></p>
+        <p class='lead'><?= lang('Errors.weHitASnag') ?></p>
 
     </div>
 

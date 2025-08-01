@@ -32,15 +32,15 @@
                 <li>
                     <a class='text-decoration-none text-white'
                        href=''>
-                        <i class="bi bi-facebook"></i>
+                        <i class='bi bi-facebook'></i>
                     </a>
                     <a class='text-decoration-none text-white'
                        href=''>
-                        <i class="bi bi-twitter-x"></i>
+                        <i class='bi bi-twitter-x'></i>
                     </a>
                     <a class='text-decoration-none text-white fs-2'
                        href=''>
-                        <i class="bi bi-instagram"></i>
+                        <i class='bi bi-instagram'></i>
                     </a>
                 </li>
             </ul>

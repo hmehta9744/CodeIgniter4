@@ -20,11 +20,11 @@
                         ¿Trabajas Aqui?
                     </a>
                     <ul class='dropdown-menu me-auto text-center' aria-labelledby='navbarDropdown'>
-                        <li data-bs-toggle="modal" data-bs-target="#empleo">Cocineros</li>
+                        <li data-bs-toggle='modal' data-bs-target='#empleo'>Cocineros</li>
                         <li><hr class='dropdown-divider'></li>
-                        <li data-bs-toggle="modal" data-bs-target="#empleo">Cajeros</li>
+                        <li data-bs-toggle='modal' data-bs-target='#empleo'>Cajeros</li>
                         <li><hr class='dropdown-divider'></li>
-                        <li data-bs-toggle="modal" data-bs-target="#empleo">Meseros</li>
+                        <li data-bs-toggle='modal' data-bs-target='#empleo'>Meseros</li>
                     </ul>
                 </li>
                 <li class='nav-item p-2'>
