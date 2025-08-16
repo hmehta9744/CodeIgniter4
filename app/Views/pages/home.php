@@ -72,7 +72,7 @@
             </div>
             <div class='col-md-4'>
                 <img class='img-fluid w-100 vh-100 card-img rounded-5' alt='menu'
-                     src='https://images.unsplash.com/photo-1624300629298-e9de39c13be5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'>
+                     src='/images/photo-1624300629298-e9de39c13be5.avif'>
             </div>
         </div>
     </div>
